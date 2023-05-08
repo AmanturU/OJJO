@@ -1,0 +1,15 @@
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   padding: 15px;
+}
+
+.header ul a:not(:last-child) {
+   margin-right: 25px;
+}
+
+.header a {
+   color: black;
+}

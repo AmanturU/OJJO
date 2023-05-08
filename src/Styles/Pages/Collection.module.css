@@ -1,0 +1,142 @@
+/* --------------------------===>Main block<===-------------------------- */
+.collection_block {
+   text-align: center;
+   width: 100%;
+   /* height: 100vh; */
+   padding: 0 200px;
+   margin-bottom: 50px;
+}
+
+.title_collection_block {
+   margin: 30px;
+}
+
+.title_collection_block h3 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+   color: #333333;
+}
+
+.title_collection_block h1 {
+   margin: 10px 0;
+
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   color: #333333;
+}
+
+.typesList {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.typesList li {
+   padding: 15px 20px;
+   border: 1px solid #D6D6D6;
+   transition: 0.3s;
+}
+
+.typesList li:hover {
+   background: #333333;
+   color: #fff;
+}
+
+.cardsList {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   text-align: center;
+   align-items: flex-end;
+}
+
+.cardList {
+   width: 350px;
+   height: 280px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end
+}
+
+.cardList p {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+/* --------------------------===>Invite block<===-------------------------- */
+.invite_block {
+   width: 100%;
+   /* height: 60vh; */
+   background: url('../../../public/imgs/bgc2.png') center / cover no-repeat;
+
+   text-align: center;
+   color: #fff;
+   padding: 10vh 40vh;
+   margin-bottom: 50px;
+}
+
+.invite_block h3 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+
+   text-align: center;
+}
+
+.invite_block h1 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+
+   margin: 10px;
+   text-align: center;
+}
+
+.invite_block p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   margin: 20px;
+   text-align: center;
+}
+
+.btn_invite {
+   background: #FFFFFF;
+   border: 1px solid #333333;
+   padding: 12px 25px;
+
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+
+   color: #333333;
+   transition: 0.3s;
+}
+
+.btn_invite:hover {
+   background: #333333;
+   color: #fff;
+}

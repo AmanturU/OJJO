@@ -1,0 +1,257 @@
+/* --------------------------===>Main block<===-------------------------- */
+.about_block {
+   text-align: center;
+   width: 100%;
+   /* height: 100vh; */
+   padding: 0 180px;
+   margin-bottom: 50px;
+}
+
+.title_about_block {
+   margin: 30px;
+}
+
+.title_about_block h3 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+   color: #333333;
+}
+
+.title_about_block h1 {
+   margin: 10px 0;
+
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   color: #333333;
+}
+
+/* --------------------------===>Card block<===-------------------------- */
+.cardsList {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   text-align: center;
+   align-items: flex-end;
+}
+
+.cardList {
+   width: 280px;
+   height: 300px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end
+}
+
+.cardList p {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+
+.btn_read {
+   background: #FFFFFF;
+   border: 1px solid #333333;
+   padding: 12px 25px;
+   margin: 20px 0;
+
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+
+   color: #333333;
+   transition: 0.3s;
+}
+
+.btn_read:hover {
+   background: #333333;
+   color: #fff;
+}
+
+/* --------------------------===>Social Media block<===-------------------------- */
+.socMedia_block {
+   margin-top: 100px;
+}
+
+
+
+.topGallery_imgs {
+   display: flex;
+   justify-content: center;
+}
+
+.bottomGallery_imgs {
+   display: flex;
+   justify-content: center;
+}
+
+/* .pauseImg {
+   width: 555px;
+   height: 295px;
+} */
+
+.leftImg,
+.rightImg {
+   width: 278px;
+   height: 300px;
+}
+
+/* --------------------------===>Invite block<===-------------------------- */
+.invite_block {
+   width: 100%;
+   /* height: 60vh; */
+   background: url('../../../public/imgs/bgc2.png') center / cover no-repeat;
+
+   text-align: center;
+   color: #fff;
+   padding: 10vh 40vh;
+   margin-bottom: 50px;
+}
+
+.invite_block h3 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+
+   text-align: center;
+}
+
+.invite_block h1 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+
+   margin: 10px;
+   text-align: center;
+}
+
+.invite_block p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   margin: 15px 0;
+   text-align: left;
+}
+
+.btn_invite {
+   background: #FFFFFF;
+   border: 1px solid #333333;
+   padding: 12px 25px;
+
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+
+   color: #333333;
+   transition: 0.3s;
+}
+
+.btn_invite:hover {
+   background: #333333;
+   color: #fff;
+}
+
+
+
+
+
+
+
+
+.bottomIntite_block {
+   /* width: 60%; */
+   display: flex;
+   justify-content: space-around;
+   text-align: left;
+}
+
+
+
+.inputContainer {
+   position: relative;
+   display: flex;
+   margin: auto 0;
+   height: 2.8rem;
+   width: 50%;
+   min-width: 200px;
+   max-width: 250px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);
+}
+
+.inputContainer input {
+   height: 100%;
+   width: 100%;
+   border-radius: 8px;
+   border: 1px solid rgb(176 190 197);
+   background-color: transparent;
+   padding: 0.625rem 70px 0.625rem 0.75rem;
+   font-size: 0.875rem;
+   line-height: 1.25rem;
+   font-weight: 400;
+   color: rgb(69 90 100);
+   outline: none;
+   transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.inputContainer input:focus {
+   border: 1px solid rgb(82, 82, 82);
+}
+
+.inviteBtn {
+   position: absolute;
+   /* width: 65px; */
+   right: 4px;
+   top: 4px;
+   bottom: 4px;
+   z-index: 10;
+   border-radius: 4px;
+   background-color: rgb(82, 82, 82);
+   color: #fff;
+   padding-top: .25rem;
+   padding-bottom: .25rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 12px;
+   font-weight: 600;
+   text-transform: uppercase;
+   border: none;
+   transition: .4s ease;
+}
+
+.inviteBtn:hover {
+   cursor: pointer;
+   background-color: #333333;
+}
+
+.inputContainer input:placeholder-shown~.invite-btn {
+   pointer-events: none;
+   background-color: gray;
+   opacity: 0.5;
+}
